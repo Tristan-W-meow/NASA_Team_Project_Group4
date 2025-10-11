@@ -6,9 +6,11 @@
         {
             Console.WriteLine("Hello, World!");
 
-            Console.WriteLine("Mean world :(")
+            Console.WriteLine("Mean world :(");
             // Adding a test line / comment to test the repository
+            Console.WriteLine("NASA project group 4");
+
         }
     }
 }
-Console.WriteLine("NASA project group 4");
+
