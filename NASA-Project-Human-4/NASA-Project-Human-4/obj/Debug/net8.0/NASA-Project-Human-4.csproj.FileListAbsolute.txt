@@ -1,0 +1,15 @@
+C:\Users\Petyourlocalcat\Documents\School\Code\NASA\NASA_Team_Project_Group4\NASA-Project-Human-4\NASA-Project-Human-4\bin\Debug\net8.0\NASA-Project-Human-4.exe
+C:\Users\Petyourlocalcat\Documents\School\Code\NASA\NASA_Team_Project_Group4\NASA-Project-Human-4\NASA-Project-Human-4\bin\Debug\net8.0\NASA-Project-Human-4.deps.json
+C:\Users\Petyourlocalcat\Documents\School\Code\NASA\NASA_Team_Project_Group4\NASA-Project-Human-4\NASA-Project-Human-4\bin\Debug\net8.0\NASA-Project-Human-4.runtimeconfig.json
+C:\Users\Petyourlocalcat\Documents\School\Code\NASA\NASA_Team_Project_Group4\NASA-Project-Human-4\NASA-Project-Human-4\bin\Debug\net8.0\NASA-Project-Human-4.dll
+C:\Users\Petyourlocalcat\Documents\School\Code\NASA\NASA_Team_Project_Group4\NASA-Project-Human-4\NASA-Project-Human-4\bin\Debug\net8.0\NASA-Project-Human-4.pdb
+C:\Users\Petyourlocalcat\Documents\School\Code\NASA\NASA_Team_Project_Group4\NASA-Project-Human-4\NASA-Project-Human-4\obj\Debug\net8.0\NASA-Project-Human-4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Petyourlocalcat\Documents\School\Code\NASA\NASA_Team_Project_Group4\NASA-Project-Human-4\NASA-Project-Human-4\obj\Debug\net8.0\NASA-Project-Human-4.AssemblyInfoInputs.cache
+C:\Users\Petyourlocalcat\Documents\School\Code\NASA\NASA_Team_Project_Group4\NASA-Project-Human-4\NASA-Project-Human-4\obj\Debug\net8.0\NASA-Project-Human-4.AssemblyInfo.cs
+C:\Users\Petyourlocalcat\Documents\School\Code\NASA\NASA_Team_Project_Group4\NASA-Project-Human-4\NASA-Project-Human-4\obj\Debug\net8.0\NASA-Project-Human-4.csproj.CoreCompileInputs.cache
+C:\Users\Petyourlocalcat\Documents\School\Code\NASA\NASA_Team_Project_Group4\NASA-Project-Human-4\NASA-Project-Human-4\obj\Debug\net8.0\NASA-Project-Human-4.sourcelink.json
+C:\Users\Petyourlocalcat\Documents\School\Code\NASA\NASA_Team_Project_Group4\NASA-Project-Human-4\NASA-Project-Human-4\obj\Debug\net8.0\NASA-Project-Human-4.dll
+C:\Users\Petyourlocalcat\Documents\School\Code\NASA\NASA_Team_Project_Group4\NASA-Project-Human-4\NASA-Project-Human-4\obj\Debug\net8.0\refint\NASA-Project-Human-4.dll
+C:\Users\Petyourlocalcat\Documents\School\Code\NASA\NASA_Team_Project_Group4\NASA-Project-Human-4\NASA-Project-Human-4\obj\Debug\net8.0\NASA-Project-Human-4.pdb
+C:\Users\Petyourlocalcat\Documents\School\Code\NASA\NASA_Team_Project_Group4\NASA-Project-Human-4\NASA-Project-Human-4\obj\Debug\net8.0\NASA-Project-Human-4.genruntimeconfig.cache
+C:\Users\Petyourlocalcat\Documents\School\Code\NASA\NASA_Team_Project_Group4\NASA-Project-Human-4\NASA-Project-Human-4\obj\Debug\net8.0\ref\NASA-Project-Human-4.dll
