@@ -3,7 +3,6 @@ namespace NASA_Project_Human_4
 {
     internal class Program
     {
-        int[] intRank = new int[16];
         static void Main(string[] args)
         {
             string[] stringItem = new string[] { "Box of matches", "Food concentrate", "50 feet of nylon rope", "Parachute silk",
