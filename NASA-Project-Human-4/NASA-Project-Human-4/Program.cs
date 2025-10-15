@@ -32,6 +32,8 @@ namespace NASA_Project_Human_4
                 "For treating injuries and medical needs.",
                 "For short-range communication with mother ship."
             };
+
+            int[] intDifference = new int[15];
             
             bool intWhileLoopBool = false;
             int intUserInput = 0;
@@ -50,7 +52,7 @@ namespace NASA_Project_Human_4
                     Console.WriteLine("Which entry do you want to change? (Numbered 1-15)");
 
                     intUserInput = Convert.ToInt32(Console.ReadLine()) - 1;
-                    if (intUserInput > 0 && intUserInput < 15)
+                    if (intUserInput > -1 && intUserInput < 15)
                     {
                         Console.WriteLine("Enter what rank you want for: " + stringItem[intUserInput]);
                         intItemRank = Convert.ToInt32(Console.ReadLine());
@@ -63,7 +65,6 @@ namespace NASA_Project_Human_4
                             Console.WriteLine("Invalid input >:(");
                             Console.Beep(400,1000);
                         }
-                        // Displays list, grabs user input, and adds it to ranking. 
                     }
                     else
                     {
@@ -75,7 +76,7 @@ namespace NASA_Project_Human_4
                 else
                 {
                     intWhileLoopBool = true;
-                    Console.WriteLine("Yipee!");
+                    WriteArray(stringItem, intRank, nasaRanking, intDifference);
                     // unfinished. Will be used to compare user scores with NASA scores. 
                 }
             }
@@ -97,6 +98,15 @@ namespace NASA_Project_Human_4
             for (int i = 0; i < 15; i++)
             {
                 Console.WriteLine(i+1 + ": " + rank[i] + ". " + array[i]);
+            }
+            // Writes down the array and ranks given. 
+        }
+        static void WriteArray(string[] array, int[] rank, int[] nasaRank, int[] difference )
+        {
+            for (int i = 0; i < 15; i++)
+            {
+                difference[i] = Math.Abs(rank[i] - nasaRank[i]);
+                Console.WriteLine(i + 1 + ": " + rank[i] + ". " + array[i] + "NASA score: " + nasaRank[i] + "Difference: " + difference[i]);
             }
             // Writes down the array and ranks given. 
         }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NASA-Project-Human-4")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db9ce55666e3d733861c411227afc454c71f040a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0676b8e28d428a5bb1491bdb33e77a27ff320e7")]
 [assembly: System.Reflection.AssemblyProductAttribute("NASA-Project-Human-4")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NASA-Project-Human-4")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
