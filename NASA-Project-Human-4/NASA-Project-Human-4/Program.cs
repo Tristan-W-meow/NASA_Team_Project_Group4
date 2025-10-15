@@ -35,6 +35,7 @@ namespace NASA_Project_Human_4
             
             bool intWhileLoopBool = false;
             int intUserInput = 0;
+            int intItemRank;
 
             // array and variable declarations
 
@@ -47,11 +48,29 @@ namespace NASA_Project_Human_4
                 {
                     
                     Console.WriteLine("Which entry do you want to change? (Numbered 1-15)");
-                    intUserInput = Convert.ToInt32(Console.ReadLine())-1;
-                    Console.WriteLine("Enter what rank you want for: " + stringItem[intUserInput]);
-                    intRank[intUserInput] = Convert.ToInt32(Console.ReadLine());
+
+                    intUserInput = Convert.ToInt32(Console.ReadLine()) - 1;
+                    if (intUserInput > 0 && intUserInput < 15)
+                    {
+                        Console.WriteLine("Enter what rank you want for: " + stringItem[intUserInput]);
+                        intItemRank = Convert.ToInt32(Console.ReadLine());
+                        if (intItemRank > 0 && intItemRank < 16)
+                        {
+                            intRank[intUserInput] = intItemRank;
+                        }
+                        else
+                        {
+                            Console.WriteLine("Invalid input >:(");
+                            Console.Beep(400,1000);
+                        }
+                        // Displays list, grabs user input, and adds it to ranking. 
+                    }
+                    else
+                    {
+                        Console.WriteLine("Invalid input :(");
+                        Console.Beep(200, 1000);
+                    }
                     Console.Clear();
-                    // Displays list, grabs user input, and adds it to ranking. 
                 }
                 else
                 {
@@ -93,7 +112,7 @@ namespace NASA_Project_Human_4
                     {
                         if (i != n)
                         {
-                            if (rank[i] == rank[n])
+                            if (rank[i] == rank[n] || rank[i] <= 0)
                             {
                                 boolCheck = false;
                             }
